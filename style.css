@@ -1,0 +1,285 @@
+/*
+  Theme Name: PushyPress
+  Theme URI: http://www.christopheryee.ca/pushypress
+  Author: Christopher Yee
+  Author URI: http://www.christopheryee.ca
+  Description: A responsive WordPress theme built with Bootstrap 3 featuring an off-canvas navigation menu (Pushy) included.
+  Version: 0.9
+  License: The MIT License
+  License URI: license.txt
+  Tags: off-canvas navigation, single-column, two-column, clean, responsive, bootstrap 3
+*/
+
+html, body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*disable grey box/highlight on mousedown on mobile safari*/ 
+}
+
+body{
+  color: #000;
+	padding-top: 80px;
+}
+
+img{
+  height: auto; /* responsive images */
+  max-width: 100%; 
+}
+
+/* Selection Color */
+
+::-moz-selection {
+    background: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #000;
+    text-shadow: none;
+}
+
+/* Container */
+
+.container{
+  position: relative; /* required for pushy (off-canvas nav) to work */
+}
+
+/* Links */
+
+a:link, a:visited{
+  color: #00b4ff;
+	text-decoration: none;
+}
+
+a:hover{
+  color: #000;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 9990;
+  background: #00b4ff;
+  color: #000;
+  padding: 15px;
+  height: 62px;
+}
+
+header h2{
+  float: left;
+  font-size: 2.0em;
+  margin: 0 0 0 20px;
+}
+
+header a:link, header a:visited{
+  color: #FFF;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menu-btn {
+  float: left;
+  font-size: 2.3em;
+  cursor: pointer;
+  color: #FFF; 
+}
+
+/* Footer */
+
+footer{
+	color: #000;
+  border-top: 1px solid #D9D9D9;
+	padding: 20px;
+}
+
+/* Articles */
+
+article{
+	margin-bottom: 50px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+article h1{
+	margin-top: 0px;
+  color: #00b4ff;
+}
+
+article img{
+  margin-bottom: 10px;
+}
+
+.post-info{
+  text-align: right;
+}
+
+.post-info img{
+  border-radius: 50%;
+  margin-bottom: -5px;
+}
+
+/* Captions */
+
+.wp-caption{
+  max-width: 100%;
+}
+
+/* Pagination */
+
+.pagination-bar{
+	font-size: 2.0em;
+	margin: 40px 0;
+}
+
+/* Comments */
+
+.comments h2{
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.comments-list img{
+  border-radius: 50%;
+}
+
+.comments-form{
+  padding-bottom: 40px;
+}
+
+.no-comments{
+  color: #D9D9D9;
+  padding-bottom: 40px;
+}
+
+.comment{
+  border-bottom: 1px solid #D9D9D9;
+  padding: 15px 0;
+}
+
+.comment:last-child{
+  border: 0;
+}
+
+/* Search */
+
+.search-form{
+  margin: 15px 0 0 0;
+}
+
+.search-form button{
+  position: absolute;
+  margin-left: 15px;
+  z-index: 9999;
+  border: none;
+  background: none;
+  color: #000;
+  padding: 6px 12px;
+}
+
+.search-form button:hover{
+  color: #00b4ff;
+  background: none;
+}
+
+.search-form input{
+  padding-left: 35px;
+}
+
+/* Search Results */
+
+.search-results h2{
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+/* Sidebar */
+
+#secondary{
+  margin-top: -20px;
+}
+
+/* 404 Page */
+
+.page-not-found h1{
+  margin-top: -10px;
+}
+
+/* Read More */
+
+.read-more{
+  display: block;
+  margin-top: 20px;
+  float: right;
+}
+
+/* Forms */
+
+input, textarea{
+  border-radius: 0 !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+.form-control{
+  color: #000;
+}
+
+textarea:active, input:active, textarea:focus, input:focus {
+  -webkit-box-shadow: none !important; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  box-shadow: none !important; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+  border-color: #00b4ff !important; 
+}
+
+/* Buttons */
+
+.btn{
+  padding: 10px 25px;
+}
+
+.btn-default{
+  background: #00b4ff;
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-default:hover{
+  background: #000;
+  color: #FFF;
+}
+
+/* Hide Smiley Face (WP-Stats)*/
+
+img#wpstats{
+  display:none
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px){
+
+  .post-info img{
+    float: left;
+  }
+
+  .post-info .author{
+    float: left;
+    margin-left: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  article h1{
+    font-size: 2.2em;
+  }
+  .post-info{
+    margin-bottom: 15px;
+  }
+}

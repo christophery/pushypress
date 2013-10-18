@@ -123,6 +123,46 @@ article img{
   margin-bottom: -5px;
 }
 
+/* Images */
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.alignleft {
+  margin: 5px 20px 5px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 10px 5px 0;
+}
+
+img.alignright {
+  margin: 5px 0 5px 20px;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 5px 10px;
+}
+
+img.aligncenter {
+  margin: 5px auto;
+}
+
+img.alignnone {
+  margin: 5px 0;
+}
+
 /* Captions */
 
 .wp-caption{

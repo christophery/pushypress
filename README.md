@@ -1,6 +1,6 @@
 #PushyPress
 
-PushyPress is a responsive WordPress theme built with Bootstrap 3 featuring an off-canvas navigation menu (Pushy) included.
+PushyPress is a responsive WordPress theme built with Bootstrap 3 with [Pushy (off-canvas navigation menu)](https://github.com/christophery/pushy) included.
 
 ##Features
 

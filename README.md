@@ -2,7 +2,7 @@
 
 PushyPress is a responsive WordPress theme built with Bootstrap 3 with [Pushy](https://github.com/christophery/pushy) included.
 
-[View Screenshots](christopheryee.ca/pushypress)
+[View Screenshots](http://www.christopheryee.ca/pushypress)
 
 ##Features
 

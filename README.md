@@ -32,5 +32,3 @@ PushyPress is a responsive WordPress theme built with Bootstrap 3 with [Pushy](h
 - [jQuery](http://jquery.com/)
 - [Modernizr](http://modernizr.com/)
 - [WordPress](http://wordpress.org/)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/christophery/pushy/trend.png)](https://bitdeli.com/free "Bitdeli Badge")

@@ -1,21 +1,21 @@
-#PushyPress
+# PushyPress
 
 PushyPress is a responsive WordPress theme built with Bootstrap 3 with [Pushy](https://github.com/christophery/pushy) included.
 
-[View Screenshots](http://www.christopheryee.ca/pushypress)
+**Note: This project is no longer maintained and may not work with current/future releases of WordPress.**
 
-##Features
+## Features
 
 - Responsive
 - Off-canvas navigation (Pushy)
 - Bootstrap 3
 - Retina Ready
 
-##Requirements
+## Requirements
 
 - WordPress 3.6
 
-##Usage
+## Usage
 
 1. Unzip and rename the directory from ```pushypress-master``` to ```pushypress```.
 
@@ -23,7 +23,7 @@ PushyPress is a responsive WordPress theme built with Bootstrap 3 with [Pushy](h
 
 3. Activate it via your WordPress Dashboard.
 
-##Thanks to
+## Thanks to
 
 - [Bootstrap 3](http://getbootstrap.com/)
 - [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
